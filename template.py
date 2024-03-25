@@ -3,7 +3,7 @@ from pathlib import Path
 import logging
 
 logging.basicConfig(level=logging.INFO, format="[%(asctime)s]: %(message)s:")
-project_name = 'CatvsDog-Deployment'
+project_name = 'CatvsDog'
 files_list = [
     '.github/workflows/.gitkeep',
     f"src/{project_name}/__init__.py",
